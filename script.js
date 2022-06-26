@@ -7,11 +7,11 @@ const second = 1000;
 const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
+const countdownDate = new Date().getTime() + 478919611;
 
 function countdownFunction() {
   countdownInterval = setInterval(() => {
     const today = new Date().getTime();
-    const countdownDate = new Date().getTime() + 478919611;
     const diff = countdownDate - today;
     
     const days = Math.floor(diff / day);
