@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Countdown](https://happi89.github.io/countdown/){:target="_blank"}
+- Live Site URL: [Countdown](https://happi89.github.io/countdown/)
 
 ## My process
 
@@ -53,5 +53,5 @@ const seconds = Math.floor((diff % minute) / second);
 
 ### Useful resources
 
-- [How TO - JavaScript Countdown Timer W3schools](https://www.w3schools.com/howto/howto_js_countdown.asp){:target="_blank"} - This helped me fix my bug that made my countdown app not countdown and stay static. The problem was i got the date that the counter should countdown to in the set interval function which made the counter static.
-- [JavaScript Date Objects W3schools](https://www.w3schools.com/js/js_dates.asp){:target="_blank"} - This taught me all about time and dates in Javascript.
+- [How TO - JavaScript Countdown Timer W3schools](https://www.w3schools.com/howto/howto_js_countdown.asp) - This helped me fix my bug that made my countdown app not countdown and stay static. The problem was i got the date that the counter should countdown to in the set interval function which made the counter static.
+- [JavaScript Date Objects W3schools](https://www.w3schools.com/js/js_dates.asp) - This taught me all about time and dates in Javascript.
